@@ -1,0 +1,125 @@
+body {
+    font-family: "Raleway", sans-serif;
+    line-height: 1.6;
+    background-color: #000000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px;
+}
+
+nav {
+    text-align: center;
+    /* Center-align the navigation items */
+    padding: 5px;
+    font-family: 'REM', sans-serif;
+}
+
+nav ul {
+    list-style: none;
+    display: inline-block;
+    /* Display the list items inline */
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    /* Display the list items inline */
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.btn-resume {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #00ff73;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn-resume:hover {
+    background-color: #00ff4c;
+}
+
+.aboutme {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.aboutme img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 10px 0;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+section {
+    text-align: center;
+    padding: 40px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 24px;
+    color: #00ff73;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.social-icons a:hover {
+    color: #3498db;
+}
+
+footer {
+    background-color: #222222;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.projects a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: text-decoration 0.3s ease-in-out;
+    /* Add a transition effect */
+}
+
+.projects a:hover {
+    text-decoration: underline;
+    /* Underline the text when hovering */
+}
+
+hr {
+    width: 80%;
+    /* Adjust the width as needed */
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 20px auto;
+    /* Center the <hr> horizontally */
+}
